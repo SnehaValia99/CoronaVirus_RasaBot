@@ -1,0 +1,89 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - thanks
+  - out_of_scope
+  - bot_challenge
+  - what_is_corona
+  - symptoms
+  - concern
+  - prevention
+  - myth
+  - cases
+  - incubation
+
+actions:
+  - utter_greet
+  - utter_corona
+  - utter_symptoms
+  - utter_concern
+  - utter_prevent
+  - utter_incubation
+  - utter_myth
+  - utter_thanks
+  - utter_iamabot
+  - utter_goodbye
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_cases
+
+templates:
+  utter_greet:
+    - text: "Hey! How may I assist you?"
+    - text: "Hey there!"
+    - text: "Hello! What can I help you find today?"
+  utter_did_that_help:
+    - text: "Did that help you?"
+  utter_corona:
+    - text: "COVID-19 is a new illness that can affect your lungs and airways.
+      It is caused by a virus called coronavirus. COVID-19 is the disease caused
+      by the new coronavirus that emerged in China in December 2019.
+      To know more goto the below link:
+      https://www.mayoclinic.org/diseases-conditions/coronavirus/expert-answers
+      /novel-coronavirus/faq-20478727"
+  utter_happy:
+    - text: "Great, carry on!"
+  utter_symptoms:
+    - text: "COVID-19 symptoms includes Cough, Fever and Shortness of breath.
+      To know more goto the below link:
+      https://www.aljazeera.com/news/2020/01/coronavirus-symptoms-vaccines-risks-200122194509687.html"
+  utter_concern:
+    - text: "yes, from the recent information indicates COVID-19 may be passed
+      from person to person. Community spread is being seen, also. Community
+      spread means people have been infected with the virus in a particular
+      area, including some people who are not sure how or where they became
+      infected. COVID-19 has been detected in people throughout China and
+      in over 200 other countries, including the United States."
+  utter_prevent:
+    - text: "These are the preventions to be followed:
+      To know more goto the below link:
+      https://www.cdc.gov/coronavirus/2019-ncov/
+      prevent-getting-sick/prevention.html?"
+  utter_myth:
+    - text: "Don't believe on these myths you hear:
+      To know more goto the below link:
+      https://www.who.int/emergencies/diseases/novel-coronavirus-2019/
+      advice-for-public/myth-busters "
+  utter_incubation:
+    - text: "It appears that symptoms are showing up in people
+      within 14 days of exposure to the virus."
+  utter_thanks:
+    - text: "You're welcome and Stay safe."
+  utter_goodbye:
+    - text: "Bye"
+    - text: "Talk to you later!"
+    - text: "Have a good day."
+    - text: "Until next time!"
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+  utter_cheer_up:
+    - text: "Here is something to cheer you up: https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_cases:
+    - text: "These are the total figures demanded:
+      Goto the below link to know the stats:
+      https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd"
